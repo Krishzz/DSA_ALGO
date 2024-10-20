@@ -61,8 +61,8 @@ class BinarySearchTree:
 
 bst = BinarySearchTree()
 bst.add_node(5)
-for i in range(0, 11):
-    bst.add_node(i)
-# bst.display_nodes()
-bst.add_node(5)
+bst.add_node(3)
+bst.add_node(6)
+bst.add_node(4)
+bst.add_node(1)
 bst.display_nodes()
